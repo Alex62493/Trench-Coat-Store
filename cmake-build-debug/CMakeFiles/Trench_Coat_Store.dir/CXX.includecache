@@ -18,7 +18,11 @@ iostream
 string
 -
 
-C:/Users/Alex/Documents/Trench-Coat-Store/repo/Cart.h
+C:/Users/Alex/Documents/Trench-Coat-Store/exceptions/ValidatorException.h
+string
+-
+
+C:/Users/Alex/Documents/Trench-Coat-Store/repo/DataBase.h
 DynamicArray.h
 C:/Users/Alex/Documents/Trench-Coat-Store/repo/DynamicArray.h
 TrenchCoat.h
@@ -27,13 +31,33 @@ string
 -
 vector
 -
+exception
+-
+../validator/Validator.h
+C:/Users/Alex/Documents/Trench-Coat-Store/validator/Validator.h
 
-C:/Users/Alex/Documents/Trench-Coat-Store/serv/UserFileServ.cpp
-UserFileServ.h
-C:/Users/Alex/Documents/Trench-Coat-Store/serv/UserFileServ.h
-
-C:/Users/Alex/Documents/Trench-Coat-Store/serv/UserFileServ.h
+C:/Users/Alex/Documents/Trench-Coat-Store/serv/Controller.h
+../repo/DataBase.h
+C:/Users/Alex/Documents/Trench-Coat-Store/repo/DataBase.h
 string
+-
+cstdlib
+-
+string
+-
+vector
+-
+
+C:/Users/Alex/Documents/Trench-Coat-Store/serv/FileServ.cpp
+direct.h
+-
+FileServ.h
+C:/Users/Alex/Documents/Trench-Coat-Store/serv/FileServ.h
+
+C:/Users/Alex/Documents/Trench-Coat-Store/serv/FileServ.h
+Controller.h
+C:/Users/Alex/Documents/Trench-Coat-Store/serv/Controller.h
+iostream
 -
 fstream
 -
@@ -41,6 +65,12 @@ Windows.h
 -
 shellapi.h
 -
-../repo/Cart.h
-C:/Users/Alex/Documents/Trench-Coat-Store/repo/Cart.h
+
+C:/Users/Alex/Documents/Trench-Coat-Store/validator/Validator.h
+string
+-
+TrenchCoat.h
+C:/Users/Alex/Documents/Trench-Coat-Store/validator/TrenchCoat.h
+../exceptions/ValidatorException.h
+C:/Users/Alex/Documents/Trench-Coat-Store/exceptions/ValidatorException.h
 
