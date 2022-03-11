@@ -212,5 +212,6 @@ void UserGUI::filterButtonHandler()
     this->ss->setEnabled(true);
     this->buy->setEnabled(true);
     this->filterButton->setEnabled(false);
+    this->filter->setEnabled(false);
     emit CoatsUpdateSignal();
 }

@@ -139,7 +139,7 @@ std::vector<std::string> DataBase::getBuyList(const std::string& size, int& len)
         {
             if (elem->getQuantity() > 0 && size == elem->getSize())
             {
-                printList.push_back(std::to_string(elem->getId()) + "\t\t" + elem->getSize() + "\t\t" + elem->getColour() + "\t\t" + std::to_string(elem->getPrice()).substr(0, std::to_string(elem->getPrice()).find('.') + 3) + "\t\t" + std::to_string(elem->getQuantity()) + "\t\t" + elem->getPhotograph());
+                printList.push_back(std::to_string(elem->getId()) + " - " + elem->getSize() + " - " + elem->getColour() + " - " + std::to_string(elem->getPrice()).substr(0, std::to_string(elem->getPrice()).find('.') + 3) + " - " + std::to_string(elem->getQuantity()) + " - " + elem->getPhotograph());
                 len++;
             }
         }

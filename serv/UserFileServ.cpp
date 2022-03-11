@@ -7,8 +7,9 @@
 namespace polymorphism{
     UserFileServ::UserFileServ(const std::string& name, Cart* cart1)
     {
-        this->fileName = "C:/Users/Alex/Documents/GitHub/a89-Alex62493/";
-        this->fileName.append(name);
+        this->fileName = getenv("appdata");
+        this->fileName += "\\Trench Coat Store\\";
+        this->fileName += name;
         this->cart = cart1;
         this->file.open(this->fileName);
     }

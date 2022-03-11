@@ -1,0 +1,4 @@
+C:/Users/Alex/Documents/Trench-Coat-Store/cmake-build-debug/CMakeFiles/Trench_Coat_Store.dir
+C:/Users/Alex/Documents/Trench-Coat-Store/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Alex/Documents/Trench-Coat-Store/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Alex/Documents/Trench-Coat-Store/cmake-build-debug/CMakeFiles/Trench_Coat_Store_autogen.dir

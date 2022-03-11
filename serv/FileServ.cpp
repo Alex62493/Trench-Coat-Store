@@ -12,7 +12,9 @@ FileServ::FileServ(Controller* serv)
 void FileServ::backupEverything()
 {
     std::ofstream fout;
-    fout.open("C:/Users/Alex/Documents/GitHub/a89-Alex62493/trenchCoats.txt");
+    std::string appdata = getenv("appdata");
+    appdata += "\\Trench Coat Store\\trenchCoats.txt";
+    fout.open(appdata);
     fout << this->serv->nextId << "\n" << this->serv->repo;
     fout.close();
 }
@@ -20,7 +22,9 @@ void FileServ::backupEverything()
 void FileServ::restoreEverything()
 {
     std::ifstream fin;
-    fin.open("C:/Users/Alex/Documents/GitHub/a89-Alex62493/trenchCoats.txt");
+    std::string appdata = getenv("appdata");
+    appdata += "\\Trench Coat Store\\trenchCoats.txt";
+    fin.open(appdata);
     fin >> this->serv->nextId >> this->serv->repo;
     fin.close();
 }

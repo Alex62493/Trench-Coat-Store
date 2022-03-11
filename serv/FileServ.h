@@ -7,6 +7,8 @@
 #include "Controller.h"
 #include <iostream>
 #include <fstream>
+#include <Windows.h>
+#include <shellapi.h>
 
 class FileServ {
     friend class Controller;

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../domain/DynamicArray.h
+TrenchCoat.h
+../domain/TrenchCoat.h
+cstdlib
+-
+
+../domain/TrenchCoat.h
+iostream
+-
+string
+-
+
+C:/Users/Alex/Documents/Trench-Coat-Store/repo/Cart.h
+DynamicArray.h
+C:/Users/Alex/Documents/Trench-Coat-Store/repo/DynamicArray.h
+TrenchCoat.h
+C:/Users/Alex/Documents/Trench-Coat-Store/repo/TrenchCoat.h
+string
+-
+vector
+-
+
+C:/Users/Alex/Documents/Trench-Coat-Store/serv/UserFileServ.cpp
+UserFileServ.h
+C:/Users/Alex/Documents/Trench-Coat-Store/serv/UserFileServ.h
+
+C:/Users/Alex/Documents/Trench-Coat-Store/serv/UserFileServ.h
+string
+-
+fstream
+-
+Windows.h
+-
+shellapi.h
+-
+../repo/Cart.h
+C:/Users/Alex/Documents/Trench-Coat-Store/repo/Cart.h
+
